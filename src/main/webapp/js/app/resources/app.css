@@ -1,0 +1,64 @@
+@import '../../dojo/resources/dojo.css';
+@import '../../dijit/themes/claro/claro.css';
+@import '../../dojox/widget/Portlet/Portlet.css';
+@import '../../dojox/layout/resources/GridContainer.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus {
+    outline: none;
+    /* hides ugly browser focus style */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Lato", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5a6270;
+    background: #ebebeb;
+    -webkit-transform: translateZ(0);
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+.layoutWidget,
+.gridWidget,
+.genericWidget {
+    height: 100%;
+    width: 100%;
+}
+
+div.leftWidget {
+    margin-right: 2px;
+    width: 180px;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid green;
+}
+div.rightWidget {
+    margin-left: 2px;
+    width: 180px;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid green;
+
+}
+
+.accordion {
+    width: 100%;
+    height: 300px;
+}
+
+
+

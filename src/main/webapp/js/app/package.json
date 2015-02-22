@@ -1,0 +1,7 @@
+{
+  "name": "Dojo Demo App",
+  "author": "Deno Vichas (deno@fullstacksystems.com)",
+  "description": "A demo showing how to build and package a single screen app with dojo",
+  "homepage": "http://www.fullstacksystems.com/",
+  "dojoBuild": "app.profile.js"
+}
