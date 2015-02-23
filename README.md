@@ -1,4 +1,4 @@
-This is a demo to show how to structure and wire up a single screen web app using dojo.
+This is a demo to show how to structure and wire up a single screen web app using dojo (1.9.2).
 
 This demo is using Spring Boot (http://projects.spring.io/spring-boot/) to start up the demo. To start the app;
 
